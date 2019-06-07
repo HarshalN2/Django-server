@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.btn1,.btn2{
+    display: none !important;
+}
+audio{
+    display: none;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.from_user{
+    font-family: 'Noto Sans', sans-serif !important;
+    font-size: 25px !important;
+    color: white !important;
+}
+
+body {
+    cursor: pointer;
+    user-select: none;
+    overflow: hidden;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    /* // background-image: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);
+    // background-image: linear-gradient(to top, #d299c2 0%, #fef9d7 100%);
+    // background-image: linear-gradient(to top, #9795f0 0%, #fbc8d4 100%);
+    // background-image: linear-gradient(-20deg, #ddd6f3 0%, #faaca8 100%, #faaca8 100%); */
+    /*background-image: linear-gradient(to right, #ffc3a0 0%, #ffafbd 100%);*/
+    background: linear-gradient(rgb(1, 10, 26),rgb(1, 21, 54));
+    font-family:Quicksand;
+}
+
+/* canvas {
+    height: 100%;
+    width: 100%;
+} */
+
+.copy {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    pointer-events: none;
+    z-index: 100;
+}
+
+h2 {
+        margin: 0;
+        color: #6f86d6;
+        letter-spacing: 1px;
+        /* font-size: 6em; */
+        font-weight: 700;
+        background: linear-gradient(to right, #36cdff 0%, #1f4ffc 100%);
+        background: -moz-linear-gradient(transparent, transparent); /* no clip support in firefox*/
+        -webkit-background-clip: text;
+        -webkit-text-fill-color : transparent;
+    }
+
+/* #mic_icon{
+    background: linear-gradient(to right, #00ff73 50%, #078a42 100%);
+        background: -moz-linear-gradient(transparent, transparent); /* no clip support in firefox
+        -webkit-background-clip: text;
+        -webkit-text-fill-color : transparent;
+        font-size: 80px !important;
+        color:aqua
+}
+/* #mic_off{
+    background: linear-gradient(to right, #00ff73 50%, #078a42 100%);
+        background: -moz-linear-gradient(transparent, transparent); /* no clip support in firefox*/
+        /* -webkit-background-clip: text;
+        -webkit-text-fill-color : transparent;
+        font-size: 80px;
+        color:aqua !important; 
+}*/
+#notify_new{
+    color:aqua !important;
+}
